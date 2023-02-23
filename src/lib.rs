@@ -396,7 +396,7 @@ impl Contract {
                         }
 
                         return ReturnMessage {
-                            result: 200,
+                            result: 200,`
                             message: "File status accepted successfully".to_owned(),
                             transaction_hash: transaction_hash,
                         };
